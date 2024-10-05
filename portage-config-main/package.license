@@ -1,0 +1,3 @@
+# Binary redistributables for linux-firmware drivers
+sys-firmware/intel-microcode @BINARY-REDISTRIBUTABLE
+sys-kernel/linux-firmware @BINARY-REDISTRIBUTABLE

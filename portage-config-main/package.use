@@ -1,0 +1,109 @@
+# System packages
+app-shells/bash-completion eselect
+sys-apps/systemd-utils tmpfiles boot kernel-install
+sys-apps/systemd daemon bash cryptsetup
+sys-auth/seatd builtin server
+sys-boot/grub device-mapper
+app-crypt/pinentry caps
+app-portage/gemato gpg
+dev-libs/openssl asm
+dev-lang/python ssl
+dev-libs/nettle gmp
+sys-fs/udisks elogind systemd nls daemon
+sys-devel/gcc openmp
+
+# Kernel packages
+sys-kernel/linux-firmware redistributable
+sys-kernel/installkernel grub systemd dracut
+sys-kernel/gentoo-kernel initramfs secureboot
+sys-kernel/genkernel firmware
+sys-firmware/intel-microcode initramfs hostonly
+
+# Rust language
+dev-lang/rust nightly rust-analyzer rust-src rustfmt
+net-misc/curl http2 ssl
+
+# Core packages
+app-crypt/gnupg smartcard ssl tools
+sys-block/parted device-mapper
+dev-vcs/git gpg highlight curl
+
+# Networking packages
+net-misc/networkmanager nss iptables tools connection-sharing dhcpcd modemmanager
+net-dns/dnsmasq dhcp
+
+# App alternatives
+app-alternatives/ninja reference
+app-alternatives/yacc reference bison
+#app-alternatives/bzip2 lbzip2
+app-alternatives/lex flex
+app-alternatives/gzip reference
+app-alternatives/cpio gnu
+app-alternatives/awk gawk
+app-alternatives/tar gnu
+app-alternatives/sh bash
+app-alternatives/bc gnu
+
+# KDE/Plasma
+kde-plasma/breeze qt5
+kde-plasma/kwin lock
+kde-plasma/plasma-integration qt5
+app-arch/libarchive bzip2 zstd
+dev-libs/libpcre2 pcre16
+app-text/xmlto text
+dev-qt/qtgui egl libinput X
+media-libs/libglvnd X
+dev-qt/qtbase X gui cups libinput widgets sqlite sql xml ssl libproxy concurrent icu network opengl icu mysql
+dev-qt/qttools linguist assistant widgets opengl qdbus
+dev-qt/qtdeclarative widgets network opengl
+sys-auth/polkit-qt qt6 qt5
+dev-qt/qt5compat icu qml
+kde-frameworks/kwindowsystem X
+sys-auth/polkit daemon qt5
+sys-libs/libblockdev cryptsetup nvme
+sys-fs/fuse suid
+kde-frameworks/prison qml
+media-libs/phonon qt6 minimal
+dev-qt/qtmultimedia qml ffmpeg opengl X
+x11-libs/libxkbcommon X
+kde-frameworks/sonnet qml
+sys-libs/zlib minizip
+media-video/vlc ogg
+app-crypt/qca qt6
+dev-qt/qtquick3d opengl
+app-crypt/qca qt6
+dev-qt/qtspeech flite
+dev-qt/qtcore icu
+sys-auth/polkit qt5
+dev-qt/qtnetwork ssl
+dev-qt/qtcore icu
+kde-frameworks/kconfig qml
+media-libs/mesa X
+x11-base/xwayland libei
+media-libs/libepoxy X
+dev-util/intel_clc llvm_slot_18
+sys-apps/dbus X
+dev-qt/qtwebengine jumbo-build
+
+# Other
+media-libs/libvpx postproc
+net-irc/irssi perl otr
+media-video/ffmpeg opus
+
+
+# Pentoo
+net-libs/libwebsockets client
+net-wireless/lorcon python
+dev-libs/capstone python
+dev-libs/keystone python
+dev-util/unicorn python
+net-wireless/gnuradio uhd iio network
+dev-libs/boost python
+dev-python/pillow webp
+x11-libs/wxGTK gstreamer
+dev-libs/libdbusmenu gtk3
+net-wireless/bluez deprecated test-programs
+net-libs/nodejs inspector
+virtual/rust profiler
+dev-lang/rust-bin profiler
+dev-libs/libsodium -verify-sig
